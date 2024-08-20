@@ -1,0 +1,36 @@
+.mainapp
+ {
+  background-color: #e0f2f1;
+  /* border-radius: 8px;  */
+}
+
+.custom-card {
+    height: 100%; 
+  }
+  
+  .custom-card-img {
+    height: 300px;
+    object-fit: cover; 
+  }
+
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+    cursor: pointer;
+    transition: font-weight 0.3s; 
+  }
+  
+  .sidebar-item:last-child {
+    margin-bottom: 0; 
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px; 
+  }
+  
+  .sidebar-item.active {
+    font-weight: bold; 
+  }
+  
+  
